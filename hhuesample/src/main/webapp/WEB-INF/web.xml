@@ -3,7 +3,21 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
     version="3.1">
     <display-name>Hello Servlet</display-name>
-
+    <!--
+   <servlet>
+        <servlet-name>SnoopServlet</servlet-name>
+        <servlet-class>at.toinnovate.SnoopServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SnoopServlet</servlet-name>
+        <url-pattern>/snoop</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+-->
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
